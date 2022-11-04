@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WorldWide {
 	
-	@RequestMapping("/open")
+	@RequestMapping("/hello")
 	public String test() 
 	{
-		return "suraj";
+		return "spring boot";
 	}
 	
 
